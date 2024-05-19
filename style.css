@@ -19,6 +19,7 @@ body{
 a{
     text-decoration: none;
     font-size: 1.3rem;
+    text-decoration-color: initial;
     /* color: yellow; */
 }
 
@@ -115,9 +116,6 @@ nav,img{
     /* color: whitesmoke; */
 }
 
-button a{
-    color: white;
-}
 
 .about-text button:hover{
     justify-self: center;
@@ -608,3 +606,7 @@ input[type=submit]:hover {
     color: white;
 }
 
+a{
+    text-decoration-color: whitesmoke;
+    color: black;
+}
