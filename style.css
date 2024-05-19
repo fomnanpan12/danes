@@ -18,6 +18,8 @@ body{
 
 a{
     text-decoration: none;
+    font-size: 1.3rem;
+    /* color: yellow; */
 }
 
 nav{
@@ -111,6 +113,10 @@ nav,img{
     margin-left: 18vw;
     /* margin-left: 45vw; */
     /* color: whitesmoke; */
+}
+
+button a{
+    color: white;
 }
 
 .about-text button:hover{
@@ -557,7 +563,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #93a219;
     color: white;
     padding: 12px 20px;
     border: none;
